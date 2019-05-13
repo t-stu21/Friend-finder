@@ -1,0 +1,31 @@
+body {
+    background-image: url(../assets/Images/backdrop-background-orange-132197.jpg)
+}
+
+.jumbotron {
+    margin: 150px 0 0 0;
+    background-color: transparent;
+}
+
+#quiz {
+    margin: 10px 0 0 0;
+    
+}
+
+h1, h2, h3, h4, h5, option {
+    color: white;
+    font-family: 'Poiret One', cursive;
+    font-size: 70px;
+}
+
+option {
+    color: black;
+}
+
+button {
+    font-family: 'Poiret One', cursive;
+}
+
+.card {
+background-color: transparent;
+}
