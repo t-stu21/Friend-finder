@@ -7,8 +7,9 @@ var htmlRoutes = require('../Friend-finder/app/routing/html-routes');
 
 var app = express();
 var PORT = process.env.PORT || 8080;
-
-app.use('/static', express.static(path.join(__dirname + 'app/public/css')));
+app.use(bodyParser.json({ type: 'application/vnd.api+json' }));
+console.log('file', path.join(__dirname + '/app/public/css'))
+app.use('/static', express.static(path.join(__dirname + '/app/public')));
 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: true }));
