@@ -2,8 +2,8 @@ var express = require('express');
 var bodyParser = require('body-parser');
 var path = require('path');
 
-var apiRoutes = require('../Friend-finder/app/routing/api-routes');
-var htmlRoutes = require('../Friend-finder/app/routing/html-routes');
+var apiRoutes = require('./app/routing/api-routes');
+var htmlRoutes = require('./app/routing/html-routes');
 
 var app = express();
 var PORT = process.env.PORT || 8080;
