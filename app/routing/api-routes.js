@@ -34,6 +34,7 @@ function apiRoutes(app) {
 
      
       scoreComparisionArray.push(currentComparison);
+      console.log(scoreComparisionArray);
     }
 
     
